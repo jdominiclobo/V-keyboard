@@ -98,7 +98,7 @@
 
 .row .keys:hover {
   background-color: #eef4f5;
-  text-decoration: #0d0d0e;
+  /* text-decoration: #0d0d0e; */
 }
 
 .keypress {
