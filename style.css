@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Concert+One&family=Open+Sans&family=Press+Start+2P&family=Shizuru&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: black;
-  background-color: #7ee8fa;
+  /* color: black; */
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -85,13 +87,17 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  border: 2px solid #20bf55;
-  /* background-color: #7ee8fa; */
-  box-shadow: inset 2px 1px 1px #01baef(255, 255, 255, 0.15);
+  border: 2px solid grey;
+  background-color: grey;
+  box-shadow: inset 2px 1px 1px #0d0d0e(255, 255, 255, 0.15);
 }
 
 .row .keys span:last-child {
   margin-top: 5px;
+}
+
+.row .keys:hover {
+  background-color: #eef4f5;
 }
 
 .keypress {
