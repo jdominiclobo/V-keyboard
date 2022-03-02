@@ -1,4 +1,5 @@
 const keys = document.querySelectorAll(".keys");
+let audioClick = new Audio("newmp3.mp3");
 capsLock = false;
 shift = false;
 display = "";
@@ -7,6 +8,7 @@ for (let i = 0; i < keys.length; i++) {
   let displayBox = document.querySelector(".display");
   keys[i].addEventListener("click", () => {
     keys[i].classList.add("keypress");
+    audioClick.play();
     if (
       keys[i].children.length === 1 &&
       keys[i].querySelector("span").innerText !== "shift" &&
