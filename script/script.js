@@ -1,5 +1,5 @@
 const keys = document.querySelectorAll(".keys");
-let audioClick = new Audio("newmp3.mp3");
+let audioClick = new Audio("./assets/newmp3.mp3");
 capsLock = false;
 shift = false;
 display = "";
